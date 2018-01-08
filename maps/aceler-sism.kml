@@ -2,29 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="root_doc">
 	<name>aceler-sism.kml</name>
-	<open>1</open>
+	<visibility>0</visibility>
 	<Schema name="aceler_sism" id="aceler_sism">
 		<SimpleField type="float" name="Id"></SimpleField>
 		<SimpleField type="string" name="Tipo_Suelo"></SimpleField>
 		<SimpleField type="string" name="Descripci"></SimpleField>
 		<SimpleField type="float" name="GRADO"></SimpleField>
 	</Schema>
-	<Style id="style">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style0">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="style1">
 		<LineStyle>
 			<color>ff000000</color>
@@ -33,41 +17,7 @@
 			<color>4c00aaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style3">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style4">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style13</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style5">
+	<Style id="style9">
 		<LineStyle>
 			<color>ff000000</color>
 		</LineStyle>
@@ -85,30 +35,24 @@
 			<styleUrl>#style8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style6">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style7">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id7">
+	<StyleMap id="stylemap_id2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style0</styleUrl>
+			<styleUrl>#style12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style10</styleUrl>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="stylemap_id5">
@@ -121,23 +65,7 @@
 			<styleUrl>#style14</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style8">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style9">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style10">
+	<Style id="style14">
 		<LineStyle>
 			<color>ff000000</color>
 		</LineStyle>
@@ -153,7 +81,7 @@
 			<color>4c00aaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="style12">
+	<Style id="style13">
 		<LineStyle>
 			<color>ff000000</color>
 		</LineStyle>
@@ -161,7 +89,7 @@
 			<color>4c00aaff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="style13">
+	<Style id="style10">
 		<LineStyle>
 			<color>ff000000</color>
 		</LineStyle>
@@ -179,7 +107,17 @@
 			<styleUrl>#style3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style14">
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style7">
 		<LineStyle>
 			<color>ff000000</color>
 		</LineStyle>
@@ -187,16 +125,88 @@
 			<color>4c00aaff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="stylemap_id2">
+	<Style id="style3">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style12">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style12</styleUrl>
+			<styleUrl>#style0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style5</styleUrl>
+			<styleUrl>#style10</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style4">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style8">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="style15">
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aaff</color>
+		</PolyStyle>
+	</Style>
 	<StyleMap id="stylemap_id8">
 		<Pair>
 			<key>normal</key>
@@ -207,46 +217,23 @@
 			<styleUrl>#style4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="stylemap_id9">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style16</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style15</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style15">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="style16">
-		<LineStyle>
-			<color>ff000000</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00aaff</color>
-		</PolyStyle>
-	</Style>
 	<Folder>
 		<name>aceler_sism</name>
+		<visibility>0</visibility>
 		<open>1</open>
 		<Placemark>
+			<name>S4</name>
+			<visibility>0</visibility>
+			<description>Depositos marinos. Depositos de arenas de compacidad suelta a media. Cerros con cobertura de arena eolica o roca con posible desprendimiento. Periodos de 0.70 s. a 0.80 s.</description>
+			<LookAt>
+				<longitude>-77.13207523734185</longitude>
+				<latitude>-11.9440668448724</latitude>
+				<altitude>0</altitude>
+				<heading>-7.866915147012474e-010</heading>
+				<tilt>45.00486673989745</tilt>
+				<range>46923.36197524558</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
 			<styleUrl>#stylemap_id1</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -366,6 +353,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>S2</name>
+			<visibility>0</visibility>
+			<description><![CDATA[Depositos de grava de compacidad media a densa. Zonas donde aflora la roca con diferentes grados de fracturacion. Depositos de arena de compacidad media a densa. Lomadas y cerros con posible desprendimiento de arena eolica y roca. Periodos < 0.40s.]]></description>
 			<styleUrl>#stylemap_id2</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -505,6 +495,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>S3</name>
+			<visibility>0</visibility>
+			<description>Depositos de arena de compacidad suelta a media. Periodos de 0.40 s. a 0.70 s.</description>
 			<styleUrl>#stylemap_id3</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -617,6 +610,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>S1</name>
+			<visibility>0</visibility>
+			<description>Depositos de grava de compacidad media a densa. Zonas donde aflora la roca con diferentes grados de fracturacion. Periodos menores a 0.30s.</description>
 			<styleUrl>#stylemap_id4</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -772,6 +768,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>S5</name>
+			<visibility>0</visibility>
+			<description>Zona con depositos de escombros y rellenos, deberian ser removidos o acondicionados para su habilitacion urbana. Excepto el relleno sanitario.</description>
 			<styleUrl>#stylemap_id5</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -848,6 +847,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>Roca</name>
+			<visibility>0</visibility>
+			<description>Formacion rocosa</description>
 			<styleUrl>#stylemap_id6</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -933,6 +935,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>ZETA</name>
+			<visibility>0</visibility>
+			<description>Zona estudio de tratamiento ambiental (ZETA)</description>
 			<styleUrl>#stylemap_id7</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -955,6 +960,9 @@
 			</MultiGeometry>
 		</Placemark>
 		<Placemark>
+			<name>Z. Eco</name>
+			<visibility>0</visibility>
+			<description>Zona ecologica regional. Sin estudios locales</description>
 			<styleUrl>#stylemap_id8</styleUrl>
 			<ExtendedData>
 				<SchemaData schemaUrl="#aceler_sism">
@@ -979,28 +987,6 @@
 						<LinearRing>
 							<coordinates>
 								-77.1324039393364,-11.872900461168,0 -77.13236524401751,-11.8734191715643,0 -77.1328215392633,-11.873651025103,0 -77.1330792433216,-11.8733219600703,0 -77.1329358142945,-11.8741092784014,0 -77.1310004623149,-11.8750000264983,0 -77.13095208650969,-11.8750233471376,0 -77.13089767599401,-11.8750199314945,0 -77.13087161576721,-11.8751655148507,0 -77.13093166261351,-11.8758939091178,0 -77.13106550919581,-11.8758718568083,0 -77.1312533796937,-11.8758034853251,0 -77.1313679383013,-11.8757987952262,0 -77.1319029886898,-11.8759171895906,0 -77.1324182306675,-11.87598599481,0 -77.13294133075939,-11.8760662176166,0 -77.1331551486843,-11.8760875591923,0 -77.13341977584869,-11.8761486895685,0 -77.1335948843264,-11.876187539912,0 -77.1337738325096,-11.8762206221971,0 -77.1339840938229,-11.8762840755538,0 -77.1340480916635,-11.8763270998095,0 -77.1340523386522,-11.8762378302922,0 -77.1340930215067,-11.8758501443893,0 -77.1345840158411,-11.8759229546845,0 -77.1348087198445,-11.8754717066893,0 -77.1355365369221,-11.8760257532741,0 -77.13704185659989,-11.8741635659132,0 -77.1369683919712,-11.874082819922,0 -77.13826072129611,-11.8729300408203,0 -77.13857863879061,-11.872602429337,0 -77.13891989960661,-11.8721550799696,0 -77.1391597195386,-11.8717754522754,0 -77.1391201679199,-11.8716848852808,0 -77.13866082550101,-11.8706888313224,0 -77.1384167912549,-11.8705280746031,0 -77.13756263620969,-11.8699606418614,0 -77.1372600785065,-11.8697668493375,0 -77.13687950085669,-11.8695306041762,0 -77.13659610446349,-11.8693031888088,0 -77.1360741281581,-11.8689914918097,0 -77.1358054850371,-11.8687878762124,0 -77.1352345851812,-11.8684287224278,0 -77.13471554253989,-11.8680194381804,0 -77.1346919914937,-11.8679880518146,0 -77.1346480929009,-11.8679625580192,0 -77.1346189611636,-11.8679627779699,0 -77.13452587358211,-11.867980697612,0 -77.1343249985231,-11.8679994309486,0 -77.1343857112026,-11.8681094759856,0 -77.1343420593077,-11.8682903909783,0 -77.1343085806311,-11.8683809364451,0 -77.1342867518739,-11.8685708689999,0 -77.1342767929733,-11.8686887838421,0 -77.13422155057209,-11.8687779632258,0 -77.134222324635,-11.8688774324213,0 -77.1342523688938,-11.8689445425544,0 -77.1342328496183,-11.8690319218695,0 -77.1341452414465,-11.8691550140688,0 -77.1340916598067,-11.8692579543771,0 -77.1340475789624,-11.8693837787401,0 -77.13393845693921,-11.8695376410214,0 -77.1338323707637,-11.8696822980505,0 -77.1337524235903,-11.8697915588877,0 -77.1337168789097,-11.8698163133527,0 -77.13369272214381,-11.8699067884394,0 -77.1336315741077,-11.8700358023756,0 -77.1335293927344,-11.8702829657145,0 -77.1334634405667,-11.8703936512689,0 -77.1334327831208,-11.8704474461577,0 -77.1333471922392,-11.8710296387569,0 -77.1333998025264,-11.8711018412897,0 -77.1333142293573,-11.8713368274888,0 -77.1333239755451,-11.8715754730444,0 -77.1332511787658,-11.8719547929797,0 -77.13316050809171,-11.8720339095979,0 -77.1330993565105,-11.8721625409513,0 -77.13308297847129,-11.8723042252605,0 -77.1330993044343,-11.8724054901099,0 -77.13310748974691,-11.8724589918383,0 -77.13303265373089,-11.8725762485828,0 -77.13296569043629,-11.8727068367784,0 -77.13291009724649,-11.8728009924886,0 -77.1324039393364,-11.872900461168,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark>
-			<styleUrl>#stylemap_id9</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#aceler_sism">
-					<SimpleData name="Id">0</SimpleData>
-					<SimpleData name="Tipo_Suelo">Ri­o</SimpleData>
-					<SimpleData name="Descripci">Ri­o Ri­mac</SimpleData>
-					<SimpleData name="GRADO">5.00000000000</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-77.12926019120729,-11.9369580875646,0 -77.128929736328,-11.9371167300369,0 -77.1287663408371,-11.9372348079146,0 -77.12867982152341,-11.9372855518573,0 -77.12864706078351,-11.937625805702,0 -77.12876236662051,-11.937510506314,0 -77.12891318869529,-11.9374194543668,0 -77.12911595084781,-11.9372796499265,0 -77.12918653707,-11.9372461091829,0 -77.129480678965,-11.9370984952962,0 -77.12998871699961,-11.9369760426726,0 -77.13025697674151,-11.9369969662164,0 -77.1305179742634,-11.9370829857676,0 -77.1307404784621,-11.9372152082065,0 -77.13095165610839,-11.9373896017728,0 -77.13110040120741,-11.9375300347488,0 -77.13136205740121,-11.9377002193712,0 -77.1315033913485,-11.9378866196863,0 -77.1317028843601,-11.9380572751444,0 -77.1319568307617,-11.9382351694212,0 -77.13242096936349,-11.9384612066483,0 -77.1329229133609,-11.938553047931,0 -77.1333276367623,-11.9386341481281,0 -77.1335769507516,-11.9387164271167,0 -77.13413382772841,-11.9388767162516,0 -77.1349246286108,-11.9391385284161,0 -77.13554295136839,-11.9392065252101,0 -77.13600200930929,-11.9392795566365,0 -77.1363830027418,-11.9393072692083,0 -77.1368883538201,-11.9393378619796,0 -77.13725410622121,-11.9394039485829,0 -77.13770138874079,-11.9394617628644,0 -77.1380420011883,-11.9396146020465,0 -77.1380507364461,-11.9395507293091,0 -77.1380644860736,-11.9394804800768,0 -77.1380742362325,-11.9394257300695,0 -77.1380898614472,-11.9393711043847,0 -77.13811136165261,-11.9392578548121,0 -77.13814261172929,-11.9391406051428,0 -77.1381524866712,-11.9390839797827,0 -77.1381659867413,-11.9390194794784,0 -77.13818948674199,-11.9389023547265,0 -77.1379656594701,-11.9389738591095,0 -77.1376589361504,-11.9390029730178,0 -77.1373327265437,-11.9390245828649,0 -77.136606397527,-11.9390568853323,0 -77.136257552971,-11.9390169849249,0 -77.1360739059816,-11.9389847120187,0 -77.1359072461412,-11.9389385365359,0 -77.13581544665141,-11.9389254605484,0 -77.13555740699169,-11.9389197688446,0 -77.1352279508493,-11.9389238015716,0 -77.13515623473231,-11.938895269054,0 -77.1350018639446,-11.9388306351334,0 -77.1348912355748,-11.9387947461439,0 -77.1347744028329,-11.9387604345945,0 -77.1346294765786,-11.9387110325115,0 -77.13445196231091,-11.9386679992653,0 -77.1343103839513,-11.9386491791554,0 -77.1341890567501,-11.9386363267612,0 -77.1339381886547,-11.9385540601301,0 -77.1337259334728,-11.9384408926278,0 -77.1336057652005,-11.9383775286496,0 -77.1335012097703,-11.9383232284124,0 -77.1333563677065,-11.9382845376127,0 -77.13321808931219,-11.9382901779414,0 -77.13309989437791,-11.9382803620356,0 -77.1329162718573,-11.938251147493,0 -77.1326176344481,-11.9382212748661,0 -77.13251953500441,-11.9381975328578,0 -77.1324385665137,-11.9381782520254,0 -77.1323250697892,-11.9381729912888,0 -77.1322173465841,-11.9381110626395,0 -77.1320520621294,-11.9380419185285,0 -77.13188644267041,-11.9379299261808,0 -77.13183934121879,-11.9378690680767,0 -77.1316531597833,-11.9377113200255,0 -77.1316045162969,-11.9376520039384,0 -77.13155917245081,-11.9376171489247,0 -77.1315138405804,-11.9375838241921,0 -77.1314403436559,-11.9375262268554,0 -77.1313792196692,-11.9374608837975,0 -77.1312146165896,-11.937280016071,0 -77.130929619277,-11.9370067073395,0 -77.1307990085929,-11.9369808644263,0 -77.13071281616109,-11.9368896946443,0 -77.13067369487931,-11.9368555574861,0 -77.130389595501,-11.9367964947703,0 -77.1302533736696,-11.9367669191463,0 -77.13005507800629,-11.936749291543,0 -77.1299501172885,-11.9367424346967,0 -77.12970179189681,-11.9367864011145,0 -77.12951580923659,-11.9368528509448,0 -77.12926019120729,-11.9369580875646,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>

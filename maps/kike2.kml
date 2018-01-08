@@ -2,35 +2,26 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="root_doc">
 	<name>kike.kml</name>
-	<open>1</open>
+	<visibility>0</visibility>
 	<Schema name="kike" id="kike">
 		<SimpleField type="string" name="Clases"></SimpleField>
 	</Schema>
-	<StyleMap id="stylemap_id2">
+	<StyleMap id="stylemap_id3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#style1</styleUrl>
+			<styleUrl>#style3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#style5</styleUrl>
+			<styleUrl>#style</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="style">
+	<Style id="style4">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>4c00aa55</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="style0">
-		<LineStyle>
-			<color>ff0000aa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c0000aa</color>
+			<color>4c00ffff</color>
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
@@ -43,26 +34,7 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="style2">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00ffff</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="style3">
+	<Style id="style">
 		<LineStyle>
 			<color>ff0000ff</color>
 		</LineStyle>
@@ -71,53 +43,6 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="style4">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c00ffff</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="style5">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c0000ff</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<Style id="style6">
-		<LineStyle>
-			<color>ff0000ff</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>4c7fff55</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="stylemap_id6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="stylemap_id4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="style7">
 		<LineStyle>
 			<color>ff0000aa</color>
@@ -146,11 +71,88 @@
 			<styleUrl>#style7</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="stylemap_id4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="stylemap_id6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="style0">
+		<LineStyle>
+			<color>ff0000aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c0000aa</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style5">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c0000ff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00ffff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c00aa55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="style6">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4c7fff55</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="stylemap_id2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style5</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>kike</name>
+		<visibility>0</visibility>
 		<open>1</open>
 		<Placemark>
 			<name>Alto</name>
+			<visibility>0</visibility>
 			<description>Alto</description>
 			<styleUrl>#stylemap_id2</styleUrl>
 			<ExtendedData>
@@ -316,6 +318,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Bajo</name>
+			<visibility>0</visibility>
 			<description>Bajo</description>
 			<styleUrl>#stylemap_id3</styleUrl>
 			<ExtendedData>
@@ -589,6 +592,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Medio</name>
+			<visibility>0</visibility>
 			<description>Medio</description>
 			<styleUrl>#stylemap_id4</styleUrl>
 			<ExtendedData>
@@ -880,6 +884,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Muy alto</name>
+			<visibility>0</visibility>
 			<description>Muy alto</description>
 			<styleUrl>#stylemap_id5</styleUrl>
 			<ExtendedData>
@@ -944,6 +949,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Muy bajo</name>
+			<visibility>0</visibility>
 			<description>Muy bajo</description>
 			<styleUrl>#stylemap_id6</styleUrl>
 			<ExtendedData>
