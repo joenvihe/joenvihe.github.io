@@ -10,7 +10,6 @@ description: Software Developer, Machine Learning Engineer, Data Engineer, Data 
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/joenvihe/joenvihe.github.io/master/images/blog.jpg
-
 #
 # Flags below are optional
 #
@@ -19,7 +18,7 @@ avatar: https://raw.githubusercontent.com/joenvihe/joenvihe.github.io/master/ima
 footer-links:
   dribbble:
   email: enrique@vicenteh.com
-  facebook: enriquevicenteh
+  facebook: joenvihe
   flickr:
   github: joenvihe
   instagram:
