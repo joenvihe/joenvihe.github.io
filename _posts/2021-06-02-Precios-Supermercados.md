@@ -16,6 +16,14 @@ Hice mi lista de actividades:
 - Aprender a extraer datos de paginas web. La técnica se llama escrapeo o scraping, en internet existe mucha info sobre la misma, pero lo dare solo 3 tips que les ayudaran un montón:
     * Google chrome y sus herramientas para desarrollo (el F12), tab network, tab All o XHR, en esas vistas veran todos los request que realiza la web
     * Viendo todos los request, lo que debemos buscar es el api que extraiga toda la información
+    * Utilizar python y la libreria request para extraer la info json que devuelve el api.
+- Una vez ya tienes el json y la data en tu poder, hay que guardarlo en una bd que tenga un modelo de datos sencillo donde puedas almacenar  la data que arroja el json. Otro tip. 
+    * La BD puede ser "posstgres" y pueden utilizar "heroku" que te da almacenamiento gratis para hacer tus pruebas
+- Por ultimo viene lo más complicado y trabajoso, estandarizar los nombres de los productos. Obvio, en el supermercado 1 un producto puede estar en la categoria "Alacena" y en el supermercado 2 en "Despensa", en una puedes encontrar el texto "Arroz Blanco" y en el otro "Arroz Blanco Costeño 500 mg". Los tips:
+    * UTilizar tecnicas de limpieza de datos: extraer las "marcas", el "embase", la "unidad de medidad" de los nombres de los productos, colocarlo todo en minuscula, la cosa que al final te quedara "arroz blanco" contra "arroz blanco"
+    * La idea es limpiar lo mejor posible la oracion para que solo te quede una pequeña descripcion, ha de verdad las limpieza lo hice con "expreciones regulares".
+    * 
+
 
 
 
