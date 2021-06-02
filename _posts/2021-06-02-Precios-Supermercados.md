@@ -35,7 +35,7 @@ Hice mi lista de actividades:
     * Utilice node.js para el desarrollo de la web.
 
     Esta es la web [Compra Ahorro](https://aqueous-meadow-07874.herokuapp.com/)
-
+    
 Sencillo verdad? pues me tomo varios años realizarlo entre idas y venidas, baches y tropiezos. De hecho que esta web si le doy el mayor de mis tiempos puedo hacerlo crecer mucho más, pero por ahora lo he dejado hasta ahi.
 
 
