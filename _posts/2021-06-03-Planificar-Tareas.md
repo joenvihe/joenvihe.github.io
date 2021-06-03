@@ -13,6 +13,7 @@ Tambien me he guiado del siguiente tutorial en medium:
 - [Tutorial](https://medium.com/analytics-vidhya/schedule-a-python-script-on-heroku-a978b2f91ca8)
 
 Los pasos fueron:
+
 1.- crear una carpeta con 3 archivos importantes:
 - scheduler.py  (es el programita en python que deseas ejecutar)
 - requirements.txt (son las dependencias que necesitas instalar en python)
@@ -21,13 +22,10 @@ Los pasos fueron:
 2.- En heroku crear el pipeline
 
 3.- Por linea de comandos crear app
-```bash
-heroku create job-python-app
-```
+`heroku create job-python-app`
 
 4.- Desplegar por linea de comandos tu job a Heroku
-```bash
-heroku git:clone -a job-python-app
+```heroku git:clone -a job-python-app 
 cd job-python-app
 git add .
 git commit -am "make it better"
