@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ejecutar Planificador de Tareas con Heroku
+date: 2021-06-03 15:32 +0800
 ---
 
 Necesito ejecutar un programita en python cada cierto periodo de tiempo. Sí, este programita es el que extrae los precios de los diferentes supermercados.

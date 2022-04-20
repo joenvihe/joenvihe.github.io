@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Captura de precios de supermercados
+tags: [clustering,precios-supermercado,comparador,nlp]
+date: 2021-06-02 15:32 +0800
 ---
 
 Un dia hace más de 6 años, estaba en mi cama viendo las páginas web de diferentes supermercados del Perú, necesitaba realizar las compras de la semana, en ese momento solo habia 3 paginas web que tenian su carrito de compras, Wong, Plaza Vea y Tottus, todos con una baja calidad de desarollo, pareciera que nunca lo actualizaban, su versión eran de los 2000, estando en ese momento en el 2015.
