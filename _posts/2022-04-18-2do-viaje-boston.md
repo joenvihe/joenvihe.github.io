@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2do viaje a boston
-tags: [viaje,personal]
+tags: [viaje,personal,boston]
 date: 2022-04-18 15:32 +0800
 ---
 
