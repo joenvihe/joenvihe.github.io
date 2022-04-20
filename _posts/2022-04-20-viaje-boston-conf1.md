@@ -2,7 +2,7 @@
 layout: post
 title: 1era Conferencia de ODSC en Boston 2022
 tags: [conferencia-boston,conferencia,boston,inteligencia-artificial,data-drift,ner,spacy,interpretabilidad]
-date: 2020-04-20 15:32 +0800
+date: 2022-04-20 15:32 +0800
 ---
 
 Herramientas que hemos visto en la 1era conferencia de la ODSC en Boston 2022
