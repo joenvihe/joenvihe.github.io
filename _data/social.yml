@@ -4,6 +4,9 @@
 - title: Twitter
   url: https://twitter.com/joenvihe
   icon: fab fa-twitter
+- title: Linkedin
+  url: https://www.linkedin.com/in/joenvihe/
+  icon: fab fa-linkedin
 - title: GitHub
   url: https://github.com/joenvihe
   icon: fab fa-github
