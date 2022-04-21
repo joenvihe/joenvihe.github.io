@@ -15,3 +15,4 @@ En esta sesión hemos visto varias charlas:
     - La autora [Jennifer Davis](https://www.linkedin.com/in/drjenniferdavis/)
 -Contenerizando todos los procesos con [cloudera](https://docs.cloudera.com/cdsw/1.9.2/architecture-overview/topics/cdsw-docker-and-kubernetes.html)
     - Con [Alex Bleakley](https://www.linkedin.com/in/alexbleakley/)
+    - me regalaron un polo de cloudera pero tmaño largo
