@@ -51,3 +51,5 @@ En esta sesión hemos visto varias charlas:
     - Con [olga beregovaya](https://www.linkedin.com/in/olga-beregovaya-04b5/)
     - En [Medium](https://odsc.medium.com/the-rise-of-multilingual-conversational-ai-f287e423364d)
     - Conversational AI con [WeLocalizeQ](https://info.welocalize.com/Conversational_AI_Guide?utm_source=odsc&utm_medium=thirdparty&utm_campaign=conversational_ai)
+
+Con esta lista se termino las conferencias de hoy

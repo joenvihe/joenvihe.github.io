@@ -17,6 +17,8 @@ En esta sesión hemos visto varias charlas:
 - [Domimio data lab](https://www.dominodatalab.com/), es para acelerar el entrenamiento de los modelos en imagenes:
     - La autora [Jennifer Davis](https://www.linkedin.com/in/drjenniferdavis/)
 
--Contenerizando todos los procesos con [cloudera](https://docs.cloudera.com/cdsw/1.9.2/architecture-overview/topics/cdsw-docker-and-kubernetes.html)
+- Contenerizando todos los procesos con [cloudera](https://docs.cloudera.com/cdsw/1.9.2/architecture-overview/topics/cdsw-docker-and-kubernetes.html)
     - Con [Alex Bleakley](https://www.linkedin.com/in/alexbleakley/)
     - me regalaron un polo de cloudera pero tamaño extra-largo
+
+- Tensorflow con spark
