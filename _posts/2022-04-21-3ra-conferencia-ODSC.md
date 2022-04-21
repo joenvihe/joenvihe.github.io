@@ -34,4 +34,4 @@ En esta sesión hemos visto varias charlas:
     - Manejo de data demografica y Puntos de Interes(POI)
 
 - Data visualization with [ggplot2](https://mjfrigaard.github.io/odsc-ggplot2-2022/)
-    - Construyendo grafos
+    - Construyendo graficos
