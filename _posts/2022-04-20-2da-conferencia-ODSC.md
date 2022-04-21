@@ -5,46 +5,21 @@ tags: [conferencia,boston,inteligencia-artificial]
 date: 2022-04-20 15:32 +0800
 ---
 
- 
-Matt Akins 
+En esta sesión hemos visto varias charlas:
 
-data driven insights and key business goals
+- Colaboración Humano-Maquina
+	- [Coperación Humano-Maquina para tener mejores resultado](https://www.cs.uci.edu/culture-of-collaboration-leads-to-cutting-edge-work-in-ai/)
+	- [Human-Machine Framework](https://www.itsecuritydemand.com/news/tech-news/artificial-intelligence-news/research-suggests-a-hybrid-human-machine-framework-will-develop-more-intelligent-ai-devices/)
 
-improve customer
-employee experience
-automate business processes
+- [La nube hibrida de NVIDIA y REDHAT Open shift](https://cloud.redhat.com/learn/partners/nvidia)
 
-cualquier rubro de negocio ppuede implementar data sciente
+- Algunas plataformas de BD:
+    - [InfluxDB](https://www.influxdata.com/) para datos de tiempos de serie
+    - [Rasgo](https://www.rasgoml.com/) una base de datos para feature store
 
-business leadesio
-data engineer
-data scientis
-app developes
-it operations
+- [Tensorflow-similarity](https://blog.tensorflow.org/2021/09/introducing-tensorflow-similarity.html) Entrenamiento rapido para modelos de similaridad con Hannes Hapke
 
-enterpris MLOps is a Team Sport
+- [Fedex DataWork](https://www.forbes.com/sites/stevebanker/2022/01/20/fedex-works-to-monetize-their-big-data/?sh=1489feaa277d) Fedex esta trabajando para monetizar sus datos
+    - FedEx Dataworks is an organization within FedEx that uses data science and machine learning to help make shipping more efficient
 
-line of business:
-Time to business value
-realiability of predictions
-responsive to evolving business
-
-
-Data engineer, data scientis, software developer
-- self service accers software tool data infraestructira
-conteiner, kubernets, devops, automation
-
-
-It operations
-high availability
-security
-ease of management
-enhan existing vs rip and replace
-
-
-REDHAT and NVIDIA
-Empresa TURKCELL
-ROAL BANK OF CANADA
-NTT image and video analysis
-
-
+- [Escalando pipeline con Iguazio](https://www.iguazio.com/sessions/scaling-nlp-pipelines-at-ihs-markit/)
