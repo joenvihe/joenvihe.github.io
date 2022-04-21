@@ -23,3 +23,31 @@ En esta sesión hemos visto varias charlas:
     - FedEx Dataworks is an organization within FedEx that uses data science and machine learning to help make shipping more efficient
 
 - [Escalando pipeline con Iguazio](https://www.iguazio.com/sessions/scaling-nlp-pipelines-at-ihs-markit/)
+
+- No estuve en la presenta de Data Versioning [Pachyderm](https://www.pachyderm.com/) pero por aca lo dejo.
+    - Expositor [Jimmy Whitaker](https://www.linkedin.com/in/jimmymwhitaker/)
+
+- Enviar proyectos de alta calidad a produccion con [Moov AI](https://moov.ai/en/)
+    - Exposito [Olivier Blais](https://www.linkedin.com/in/olivierblais/?originalSubdomain=ca)
+    - Palabras claves: Usuario, Aceptacion y Pruebas
+    - Feedback loop
+    - Robustness 
+
+- Vi una exposicion sobre analisis de imagenes de agriicultura con imagenes georeferenciadas con GIS
+    - La empresa [Intelinair](https://www.intelinair.com/)
+
+- Metodos agiles para el desarrollo de un proyecto de DS con Jeff Saltz
+    - [datascience-pm](https://www.datascience-pm.com/author/jeff/)
+
+- Tambien escuche a [Keith McKormick](https://www.linkedin.com/in/keithmccormick/), chief data science en [cloudfactory] sobre el proceso de  human-in-the-loop machine learning
+    - [youtube 1](https://www.youtube.com/watch?v=R-wSRZtnnfk)
+    - [youtube 2](https://www.youtube.com/watch?v=FOnoBz7s1mY)
+    - [Medium](https://odsc.medium.com/human-the-loop-machine-learning-and-data-science-21343e3cd46c)
+
+- [Snowplow](https://snowplowanalytics.com/) delivers ai-ready data for your models
+    - Con [Nick king](https://www.linkedin.com/in/nick-king/)
+
+- Creating data to enable multilingual ai what can go worng and ways to mitigate it 
+    - Con [olga beregovaya](https://www.linkedin.com/in/olga-beregovaya-04b5/)
+    - En [Medium](https://odsc.medium.com/the-rise-of-multilingual-conversational-ai-f287e423364d)
+    - Conversational AI con [WeLocalizeQ](https://info.welocalize.com/Conversational_AI_Guide?utm_source=odsc&utm_medium=thirdparty&utm_campaign=conversational_ai)
