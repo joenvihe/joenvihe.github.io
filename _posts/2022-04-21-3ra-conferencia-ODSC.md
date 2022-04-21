@@ -32,3 +32,6 @@ En esta sesión hemos visto varias charlas:
 - Analizando mercados globales, con data local
     - Con Fletcher Berryman de [SafeGraph](https://www.safegraph.com/events/odsc-east-webinar)
     - Manejo de data demografica y Puntos de Interes(POI)
+
+- Data visualization with [ggplot2](https://mjfrigaard.github.io/odsc-ggplot2-2022/)
+    - Construyendo grafos
