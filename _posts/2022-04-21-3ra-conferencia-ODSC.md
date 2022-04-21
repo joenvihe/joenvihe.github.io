@@ -13,6 +13,7 @@ En esta sesión hemos visto varias charlas:
 
 - Hubo firma de libros con [Stefanie Moli](https://www.bloomberg.com/company/stories/conversation-bloombergs-stefanie-molin-data-science-python-pandas-recent-book/) [github](https://github.com/stefmolin)
     - Su libro [Hand-on Data Analysis wiht pandas](https://www.youtube.com/watch?v=Pb5CfWa8yUU)
+    - El github a su [conferencia](https://github.com/stefmolin/python-data-viz-workshop)
 
 - [Domimio data lab](https://www.dominodatalab.com/), es para acelerar el entrenamiento de los modelos en imagenes:
     - La autora [Jennifer Davis](https://www.linkedin.com/in/drjenniferdavis/)
