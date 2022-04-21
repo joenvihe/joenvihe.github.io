@@ -21,4 +21,10 @@ En esta sesión hemos visto varias charlas:
     - Con [Alex Bleakley](https://www.linkedin.com/in/alexbleakley/)
     - me regalaron un polo de cloudera pero tamaño extra-largo
 
-- Tensorflow con spark
+- Tensorflow con spark, [mlops para grandes volumenes de datos](https://ronnygeo.medium.com/rebuilding-our-next-gen-ml-platform-with-the-best-of-spark-and-tensorflow-c828499fc724)
+    - con [Ronny Mathew](https://www.linkedin.com/in/ronnygeo/)
+
+- Monitoreo de data drift con DVC
+    - con milecia mcgregor 
+    - [youtube 1](https://www.youtube.com/watch?v=FHQq_zZz5ms)
+    - [youtube 2](https://hasgeek.com/fifthelephant/mlops-conference-july-2021/schedule/maintaining-machine-learning-model-accuracy-through-monitoring-fqzq8u4iuKTgfNwjFhMii)
