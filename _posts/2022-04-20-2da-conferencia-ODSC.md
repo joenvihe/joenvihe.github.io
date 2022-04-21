@@ -39,7 +39,7 @@ En esta sesión hemos visto varias charlas:
 - Metodos agiles para el desarrollo de un proyecto de DS con Jeff Saltz
     - [datascience-pm](https://www.datascience-pm.com/author/jeff/)
 
-- Tambien escuche a [Keith McKormick](https://www.linkedin.com/in/keithmccormick/), chief data science en [cloudfactory] sobre el proceso de  human-in-the-loop machine learning
+- Tambien escuche a [Keith McKormick](https://www.linkedin.com/in/keithmccormick/), chief data science en [cloudfactory](https://www.cloudfactory.com/) sobre el proceso de  human-in-the-loop machine learning
     - [youtube 1](https://www.youtube.com/watch?v=R-wSRZtnnfk)
     - [youtube 2](https://www.youtube.com/watch?v=FOnoBz7s1mY)
     - [Medium](https://odsc.medium.com/human-the-loop-machine-learning-and-data-science-21343e3cd46c)

@@ -28,3 +28,7 @@ En esta sesión hemos visto varias charlas:
     - con milecia mcgregor 
     - [youtube 1](https://www.youtube.com/watch?v=FHQq_zZz5ms)
     - [youtube 2](https://hasgeek.com/fifthelephant/mlops-conference-july-2021/schedule/maintaining-machine-learning-model-accuracy-through-monitoring-fqzq8u4iuKTgfNwjFhMii)
+
+- Analizando mercados globales, con data local
+    - Con Fletcher Berryman de [SafeGraph](https://www.safegraph.com/events/odsc-east-webinar)
+    - Manejo de data demografica y Puntos de Interes(POI)
