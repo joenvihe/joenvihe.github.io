@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal de joenvihe — desarrollador web y creador de soluciones digitales."
+    />
+    <title>joenvihe | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#inicio" class="brand">joenvihe</a>
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <a href="#contacto" class="button button-sm">Hablemos</a>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Desarrollador • Diseñador • Creador digital</p>
+            <h1>Transformo ideas en experiencias digitales útiles y memorables.</h1>
+            <p class="subtitle">
+              Soy <strong>joenvihe</strong>, un profesional apasionado por crear
+              productos web con impacto real, diseño limpio y una ejecución técnica
+              sólida.
+            </p>
+            <div class="cta-row">
+              <a href="#proyectos" class="button">Ver proyectos</a>
+              <a href="#contacto" class="button button-secondary">Contactar</a>
+            </div>
+            <ul class="mini-stats" aria-label="Estadísticas principales">
+              <li><strong>+2</strong><span>años de experiencia</span></li>
+              <li><strong>15+</strong><span>proyectos</span></li>
+              <li><strong>100%</strong><span>enfoque en calidad</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Ilustración de perfil">
+            <div class="profile-card">
+              <div class="avatar">J</div>
+              <div class="badge badge-top">Disponible</div>
+              <div class="card-content">
+                <h2>Frontend / Product</h2>
+                <p>Construyo interfaces claras, rápidas y centradas en la experiencia del usuario.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section">
+        <div class="container section-grid">
+          <div>
+            <p class="section-label">Sobre mí</p>
+            <h2>Me gusta resolver problemas con código y buen diseño.</h2>
+          </div>
+          <div>
+            <p>
+              Me especializo en crear soluciones web modernas que equilibran estética,
+              funcionalidad y rendimiento. Mi enfoque combina estrategia, diseño de
+              interfaces y desarrollo para entregar experiencias útiles para usuarios y
+              negocios.
+            </p>
+            <p>
+              Desde landing pages hasta dashboards y proyectos digitales más complejos,
+              trabajo para convertir ideas en productos claros, profesionales y escalables.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section muted-section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Proyectos</p>
+              <h2>Algunos trabajos recientes</h2>
+            </div>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="tag">Web App</span>
+              <h3>Dashboard de gestión</h3>
+              <p>
+                Plataforma para seguimiento de métricas, clientes y tareas con una interfaz clara
+                y enfocada en productividad.
+              </p>
+              <ul>
+                <li>UX/UI</li>
+                <li>Frontend</li>
+                <li>Automatización</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Landing</span>
+              <h3>Brand launch</h3>
+              <p>
+                Sitio promocional para presentación de marca con enfoque en conversión,
+                storytelling visual y claridad comercial.
+              </p>
+              <ul>
+                <li>Marketing</li>
+                <li>Diseño</li>
+                <li>SEO</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">E-commerce</span>
+              <h3>Tienda digital</h3>
+              <p>
+                Experiencia de compra pensada para navegación intuitiva, buenas métricas y una
+                presentación de productos profesional.
+              </p>
+              <ul>
+                <li>UX</li>
+                <li>Catalogación</li>
+                <li>Conversiones</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-label">Habilidades</p>
+              <h2>Herramientas y competencias</h2>
+            </div>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card"><span>HTML5</span></div>
+            <div class="skill-card"><span>CSS3</span></div>
+            <div class="skill-card"><span>JavaScript</span></div>
+            <div class="skill-card"><span>React</span></div>
+            <div class="skill-card"><span>UI/UX</span></div>
+            <div class="skill-card"><span>Responsive</span></div>
+            <div class="skill-card"><span>Git</span></div>
+            <div class="skill-card"><span>Figma</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quote-section">
+        <div class="container quote-box">
+          <p>
+            “La mejor tecnología no es la más compleja, sino la que hace que la experiencia sea
+            clara, útil y agradable.”
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="section-label">Contacto</p>
+          <h2>¿Hablamos de tu próximo proyecto?</h2>
+        </div>
+        <div class="footer-actions">
+          <a href="mailto:tuemail@ejemplo.com" class="button">tuemail@ejemplo.com</a>
+          <a href="https://github.com/joenvihe" class="button button-secondary" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> joenvihe. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+},{
