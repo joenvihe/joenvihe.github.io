@@ -1,313 +1,424 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portafolio personal de joenvihe — desarrollador web y creador de soluciones digitales."
-    />
-    <title>joenvihe | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#inicio" class="brand">joenvihe</a>
-        <nav class="nav" aria-label="Navegación principal">
-          <a href="#sobre-mi">Sobre mí</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#habilidades">Habilidades</a>
-          <a href="#contacto">Contacto</a>
-        </nav>
-        <a href="#contacto" class="button button-sm">Hablemos</a>
-      </div>
-    </header>
-
-    <main id="inicio">
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Desarrollador • Diseñador • Creador digital</p>
-            <h1>Transformo ideas en experiencias digitales útiles y memorables.</h1>
-            <p class="subtitle">
-              Soy <strong>joenvihe</strong>, un profesional apasionado por crear
-              productos web con impacto real, diseño limpio y una ejecución técnica
-              sólida.
-            </p>
-            <div class="cta-row">
-              <a href="#proyectos" class="button">Ver proyectos</a>
-              <a href="#contacto" class="button button-secondary">Contactar</a>
-            </div>
-            <ul class="mini-stats" aria-label="Estadísticas principales">
-              <li><strong>+2</strong><span>años de experiencia</span></li>
-              <li><strong>15+</strong><span>proyectos</span></li>
-              <li><strong>100%</strong><span>enfoque en calidad</span></li>
-            </ul>
-          </div>
-
-          <div class="hero-visual" aria-label="Ilustración de perfil">
-            <div class="profile-card">
-              <div class="avatar">J</div>
-              <div class="badge badge-top">Disponible</div>
-              <div class="card-content">
-                <h2>Frontend / Product</h2>
-                <p>Construyo interfaces claras, rápidas y centradas en la experiencia del usuario.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="sobre-mi" class="section">
-        <div class="container section-grid">
-          <div>
-            <p class="section-label">Sobre mí</p>
-            <h2>Me gusta resolver problemas con código y buen diseño.</h2>
-          </div>
-          <div>
-            <p>
-              Me especializo en crear soluciones web modernas que equilibran estética,
-              funcionalidad y rendimiento. Mi enfoque combina estrategia, diseño de
-              interfaces y desarrollo para entregar experiencias útiles para usuarios y
-              negocios.
-            </p>
-            <p>
-              Desde landing pages hasta dashboards y proyectos digitales más complejos,
-              trabajo para convertir ideas en productos claros, profesionales y escalables.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos" class="section muted-section">
-        <div class="container">
-          <div class="section-head">
-            <div>
-              <p class="section-label">Proyectos</p>
-              <h2>Algunos trabajos recientes</h2>
-            </div>
-          </div>
-
-          <div class="projects-grid">
-            <article class="project-card">
-              <span class="tag">Web App</span>
-              <h3>Dashboard de gestión</h3>
-              <p>
-                Plataforma para seguimiento de métricas, clientes y tareas con una interfaz clara
-                y enfocada en productividad.
-              </p>
-              <ul>
-                <li>UX/UI</li>
-                <li>Frontend</li>
-                <li>Automatización</li>
-              </ul>
-            </article>
-
-            <article class="project-card">
-              <span class="tag">Landing</span>
-              <h3>Brand launch</h3>
-              <p>
-                Sitio promocional para presentación de marca con enfoque en conversión,
-                storytelling visual y claridad comercial.
-              </p>
-              <ul>
-                <li>Marketing</li>
-                <li>Diseño</li>
-                <li>SEO</li>
-              </ul>
-            </article>
-
-            <article class="project-card">
-              <span class="tag">E-commerce</span>
-              <h3>Tienda digital</h3>
-              <p>
-                Experiencia de compra pensada para navegación intuitiva, buenas métricas y una
-                presentación de productos profesional.
-              </p>
-              <ul>
-                <li>UX</li>
-                <li>Catalogación</li>
-                <li>Conversiones</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="habilidades" class="section">
-        <div class="container">
-          <div class="section-head">
-            <div>
-              <p class="section-label">Habilidades</p>
-              <h2>Herramientas y competencias</h2>
-            </div>
-          </div>
-
-          <div class="skills-grid">
-            <div class="skill-card"><span>HTML5</span></div>
-            <div class="skill-card"><span>CSS3</span></div>
-            <div class="skill-card"><span>JavaScript</span></div>
-            <div class="skill-card"><span>React</span></div>
-            <div class="skill-card"><span>UI/UX</span></div>
-            <div class="skill-card"><span>Responsive</span></div>
-            <div class="skill-card"><span>Git</span></div>
-            <div class="skill-card"><span>Figma</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section quote-section">
-        <div class="container quote-box">
-          <p>
-            “La mejor tecnología no es la más compleja, sino la que hace que la experiencia sea
-            clara, útil y agradable.”
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer id="contacto" class="site-footer">
-      <div class="container footer-wrap">
-        <div>
-          <p class="section-label">Contacto</p>
-          <h2>¿Hablamos de tu próximo proyecto?</h2>
-        </div>
-        <div class="footer-actions">
-          <a href="mailto:tuemail@ejemplo.com" class="button">tuemail@ejemplo.com</a>
-          <a href="https://github.com/joenvihe" class="button button-secondary" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© <span id="year"></span> joenvihe. Todos los derechos reservados.</p>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""
-},{
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #07111f;
+  --bg-soft: #0d1d2d;
+  --panel: rgba(15, 25, 40, 0.9);
+  --panel-strong: #111d2d;
+  --card: #0d1727;
+  --card-alt: #0f1d2f;
+  --line: rgba(148, 163, 184, 0.18);
+  --text: #e5edf7;
+  --muted: #9cb0c7;
+  --accent: #5eead4;
+  --accent-2: #60a5fa;
+  --accent-3: #c084fc;
+  --shadow: 0 24px 60px rgba(15, 23, 42, 0.45);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(96, 165, 250, 0.2), transparent 20%),
+    radial-gradient(circle at right, rgba(94, 234, 212, 0.12), transparent 25%),
+    var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(14px);
+  background: rgba(7, 17, 31, 0.7);
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  gap: 1.25rem;
+}
+
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  font-size: 1.15rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.nav a:hover {
+  color: var(--text);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.4rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #04121d;
+  font-weight: 700;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 32px rgba(94, 234, 212, 0.22);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button-secondary {
+  background: transparent;
+  border-color: rgba(148, 163, 184, 0.3);
+  color: var(--text);
+  box-shadow: none;
+}
+
+.button-sm {
+  padding: 0.7rem 1.1rem;
+  font-size: 0.92rem;
+}
+
+.hero {
+  padding: 5rem 0 3rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.eyebrow,
+.section-label {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.hero-copy h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  line-height: 1.05;
+  letter-spacing: -0.06em;
+}
+
+.subtitle {
+  margin-top: 1.2rem;
+  max-width: 60ch;
+  font-size: 1.08rem;
+  color: var(--muted);
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.mini-stats {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.mini-stats li {
+  min-width: 120px;
+  background: rgba(15, 25, 40, 0.7);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.mini-stats strong {
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.mini-stats span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  position: relative;
+  width: min(100%, 420px);
+  background: linear-gradient(180deg, rgba(17, 29, 45, 0.95), rgba(9, 16, 27, 0.9));
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: 1.8rem;
+  box-shadow: var(--shadow);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 22px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--accent-3), var(--accent));
+  color: #07111f;
+  font-weight: 900;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(94, 234, 212, 0.14);
+  border: 1px solid rgba(94, 234, 212, 0.3);
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.card-content h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.9rem;
+  letter-spacing: -0.05em;
+}
+
+.card-content p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.section {
+  padding: 4.5rem 0;
+}
+
+.blog-section {
+  padding-top: 2rem;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 2rem;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3rem);
+  letter-spacing: -0.05em;
+}
+
+.featured-post {
+  background: rgba(17, 29, 45, 0.8);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  box-shadow: var(--shadow);
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-flex;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(96, 165, 250, 0.1);
+  color: #a5d3ff;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  font-weight: 600;
+}
+
+.featured-post h3 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+
+.featured-post p,
+.featured-post li {
+  color: var(--muted);
+  font-size: 1.04rem;
+}
+
+.featured-post h4 {
+  margin: 2rem 0 1rem;
+  font-size: 1.4rem;
+  letter-spacing: -0.04em;
+}
+
+.post-list {
+  padding-left: 1.2rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.post-list li + li {
+  margin-top: 0.8rem;
+}
+
+.muted-section {
+  background: rgba(9, 16, 27, 0.6);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: linear-gradient(180deg, rgba(12, 22, 35, 0.95), rgba(9, 16, 27, 0.9));
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 1.5rem;
+  box-shadow: 0 18px 34px rgba(15, 23, 42, 0.2);
+}
+
+.project-card h3 {
+  margin: 1rem 0 0.6rem;
+  font-size: 1.45rem;
+  letter-spacing: -0.04em;
+}
+
+.project-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 0.92fr 1.08fr;
+  gap: 2rem;
+}
+
+.section-grid h2 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  letter-spacing: -0.05em;
+}
+
+.section-grid p {
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+
+.site-footer {
+  padding: 2rem 0 2.5rem;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1.5rem;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.footer-wrap h2 {
+  margin: 0;
+  font-size: clamp(1.7rem, 2vw, 2.5rem);
+  letter-spacing: -0.05em;
+}
+
+.footer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-bottom {
+  color: var(--muted);
+  font-size: 0.96rem;
+  padding-top: 1.2rem;
+}
+
+@media (max-width: 820px) {
+  .nav {
+    display: none;
+  }
+
+  .hero-grid,
+  .section-grid,
+  .projects-grid,
+  .footer-wrap {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .hero {
+    padding-top: 3rem;
+  }
+
+  .cta-row,
+  .footer-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button,
+  .button-secondary {
+    width: 100%;
+  }
+}
